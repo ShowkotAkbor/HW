@@ -1,11 +1,11 @@
 package hw5Q3Constructor;
 
 public class Student {
-	public String StudentName = "Showkot";
-	public int stId = 82865;
-	public char Gender = 'M';
-	public boolean isProgrammer = true;
-	public float Grade = 3.976f;
+	public String StudentName;
+	public int stId;
+	public char Gender;
+	public boolean isProgrammer;
+	public float Grade;
 
 	public Student() {
 		System.out.println();
