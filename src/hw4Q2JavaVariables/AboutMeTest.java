@@ -3,8 +3,9 @@ package hw4Q2JavaVariables;
 public class AboutMeTest {
 
 	public static void main(String[] args) {
-		AboutMe aboutMe = new AboutMe();
-//veriable is initialized 
+		// instantiated AboutMe class
+		AboutMe aboutMe = new AboutMe();// constructor initialized when object is created
+		// Variables is initialized bellow
 		aboutMe.name = "Showkot Akbor";
 		aboutMe.gender = 'M';
 		aboutMe.height = 5.7;
@@ -14,12 +15,11 @@ public class AboutMeTest {
 		aboutMe.weight = 156.5f;
 		aboutMe.moveToUsa = 2012;
 		aboutMe.citizenship = true;
+		// method initialized
 		aboutMe.aboutMe();
-
 		System.out.println("\n***************************************\n");
-
 		AboutMe myFriend = new AboutMe();
-		myFriend.name = "Faid Hossain";
+		myFriend.name = "Alex";
 		myFriend.gender = 'M';
 		myFriend.height = 5.9;
 		myFriend.age = 35;
@@ -28,7 +28,7 @@ public class AboutMeTest {
 		myFriend.weight = 166.5f;
 		myFriend.moveToUsa = 2000;
 		myFriend.citizenship = true;
-		myFriend.aboutMe();
+		myFriend.aboutMe();// method is initialized
 	}
 
 }
