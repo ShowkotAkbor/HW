@@ -1,28 +1,24 @@
 package hw5Q3Constructor;
 
 public class Student {
-	public String StudentName;
-	public int stId;
-	public char Gender;
+	public String stName;
+	public int stID;
+	public char sex;
 	public boolean isProgrammer;
-	public float Grade;
+	public float grade;
 
 	public Student() {
 		System.out.println();
 	}
 
-public Student (String StudentName,int stId,char Gender,boolean isProgrammer,float Grade) {
-this.StudentName=StudentName;
-this.stId=stId;
-this.Gender=Gender;
-this.isProgrammer=isProgrammer;
-this.Grade=Grade;
-System.out.println("Student Name:"+StudentName+" \n Sudent Id:"+stId+"\n Gender:"+Gender+"\n Is HeadlessException Programmer: "+isProgrammer+"\n Grade:"+Grade+"\n ");
-}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public Student(String stName, int stID, char sex, boolean isProgrammer, float grade) {
+		this.stName = stName;
+		this.stID = stID;
+		this.sex = sex;
+		this.isProgrammer = isProgrammer;
+		this.grade = grade;
+		System.out.println("Student Name:" + stName + " ,  Studentt Id:" + stID + " ,  Sex:" + sex
+				+ " ,  Is Programmer: " + isProgrammer + " ,  Grade:" + grade + " ");
 	}
 
 }

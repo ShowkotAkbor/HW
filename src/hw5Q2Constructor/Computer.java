@@ -1,29 +1,29 @@
 package hw5Q2Constructor;
 
-//a)
 public class Computer {
 	// here declared some variables
-	public String Brand;
-	public String Model ;
-	public String OS ;
-	public short Price;
-	public boolean MadeInUsa;
-	public char Grade;
-
-	// here this is default constructor
+	public String brand;
+	public String model ;
+	public String operatingSystem ;
+	public int price;
+	public char grade;
+	public boolean madeInUsa;
+	// here this is default constructor declared
 	public Computer() {
 		System.out.println();
 	}
+	public Computer(String brand, String model, String operatingSystem, int price, char grade, boolean madeInUsa) {
+		this.brand = brand;
+		this.model = model;
+		this.operatingSystem = operatingSystem;
+		this.price = price;
+		this.grade = grade;
+		this.madeInUsa = madeInUsa;
 
-	public Computer(String Brand) { // here is  a parameterized constructor
-		this.Brand = Brand;
-		System.out.println("Computer name:" + Brand + "");
+		System.out.println("Brand Name:" + brand + "  ,  Model name:" + model + " , OperatingSystem :" + operatingSystem
+				+ " ,  Price:" + price + " , Grade:" + grade + " ,   Made In USA:" + madeInUsa + "  ");
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//Computer computer=new Computer();
-
-	}
+	
 
 }

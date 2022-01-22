@@ -1,28 +1,31 @@
 package hw5Q3Constructor;
 
 public class StudentTest {
-	public String StudentName ;
-	public int stId;
-	public char Gender;
-	public boolean isProgrammer ;
-	public float Grade;
+	public String studentName;
+	public int id;
+	public char sex;
+	public float grade;
+	public boolean javaProgrammer;
 
 	public StudentTest() {
-		System.out.println("This is from default Constructor of Student class");
+		System.out.println("This is from default Constructor of Student class;");
 	}
 
-	public StudentTest (String StudentName,int stId,char Gender,boolean isProgrammer,float Grade) {
-		this.StudentName=StudentName;
-		this.stId=stId;
-		this.Gender=Gender;
-		this.isProgrammer=isProgrammer;
-		this.Grade=Grade;
-		System.out.println("Student Name:"+StudentName+" \n Sudent Id:"+stId+"\n Gender:"+Gender+"\n Is Programmer?: "+isProgrammer+"\n Grade:"+Grade+"\n ");
-		}
+	public StudentTest(String studentName, int id, char sex, float grade, boolean javaProgrammer) {
+		this.studentName = studentName;
+		this.id = id;
+		this.sex = sex;
+		this.grade = grade;
+		this.javaProgrammer = javaProgrammer;
+
+		System.out.println("Student Name:" + studentName + " , Id:" + id + " , sex:" + sex + " ,  grade:" + grade
+				+ " , Java Programmer? Ans: " + javaProgrammer + "  ");
+	}
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-StudentTest studentTest =new StudentTest();
-StudentTest studentTest1 =new StudentTest("Md showkot Akbor",382865,'M',true,3.976f);
+
+		StudentTest studentTest = new StudentTest();
+		StudentTest studentTest1 = new StudentTest("Md Showkot Akbor", 382865, 'M', 3.976f, true);
 	}
 
 }
