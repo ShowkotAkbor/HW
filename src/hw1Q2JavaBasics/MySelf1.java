@@ -1,12 +1,9 @@
 package hw1Q2JavaBasics;
-
-// update
 public class MySelf1 {
-	// main method is the entry point of java,method is static,method name is main;
+	    // main method is the entry point of java,method is static,method name is main;
 	public static void main(String[] args) {
 		// here I type main method manually
-
-		System.out.println("My name : Showkot");// I print my name
+        System.out.println("My name : Showkot");// I print my name
 		/*
 		 * System.out.print("I live in: Virginia." + "\n ");
 		 * System.out.print("I love to: travel around the world.\n");
@@ -22,5 +19,5 @@ public class MySelf1 {
 		 * package:name must be start with lower case and its allow camel case class :
 		 * name must be start with upper case and its allow camel case
 		 */
-	}
+}
 }

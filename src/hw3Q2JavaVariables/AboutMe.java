@@ -1,10 +1,9 @@
 package hw3Q2JavaVariables;
-
 public class AboutMe {
 	public String biography;// here variable is declared
 	public String Myname;
 	public String name = ("showkot akbor");
-	public char gender = 'M';// here gender M is initialized
+	public char sex = 'M';// here veritable is initialized
 	public double height = 5.7;
 	public byte age = 33;
 	public long cell = 2025529177l;
@@ -12,40 +11,21 @@ public class AboutMe {
 	public float weight = 156.50f;
 	public short moveToUsa = 2012;
 	public boolean citizenship = true;
-	
-
-
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		AboutMe aboutMe = new AboutMe();
-		/*
-		 * System.out.println(aboutMe.name); System.out.println(aboutMe.gender);
-		 * System.out.println(aboutMe.height); System.out.println(aboutMe.age);
-		 * System.out.println(aboutMe.cell); System.out.println(aboutMe.zipcode);
-		 * System.out.println(aboutMe.weight); System.out.println(aboutMe.moveToUsa);
-		 * System.out.println(aboutMe.citizenship);
-		 */
-// bellow I try to do concatenate and also try to make organize
 		System.out.println("..............Let " + "me " + "introduce" + " mySelf.....................");
-
-		/*
-		 * System.out.println("Name:"+aboutMe.name+" , "+"Gender:"+aboutMe.gender+", "
-		 * +"Height:"+abo      utMe.height+" ,"+"Age:"+aboutMe.age+" ,"+"Cell:"+aboutMe.
-		 * cell+" "+"zipcode:"+aboutMe.zipcode+" ,"+"" +
-		 * "Weight:"+aboutMe.weight+" ,"+"MoveToUsa:"+aboutMe.moveToUsa+" ,"+"" +
-		 * "Citizenship:"+aboutMe.citizenship+" ");
-		 */
-// bellow I tried to concatenate with line by line used by "\n"
-		/*
-		 * System.out.println("Name:"+aboutMe.name+"\n" +
-		 * "Gender:"+aboutMe.gender+"\nHeight:"+aboutMe.height+"\n" +
-		 * "Age:"+aboutMe.age+"\nCell:"+aboutMe.cell+"\n" +
-		 * "zipcode:"+aboutMe.zipcode+"\n" +
-		 * "Weight:"+aboutMe.weight+"\nMoveToUsa:"+aboutMe.moveToUsa+"\n" +
-		 * "Citizenship:"+aboutMe.citizenship+"\n");
-		 */
-
-	}
-
+		System.out.println("Name: "+ aboutMe.name);
+		System.out.println("Sex: "+aboutMe.sex);
+		System.out.println("Height: "+aboutMe.height); 
+		System.out.println("Age: "+aboutMe.age);
+		System.out.println("Cell: "+aboutMe.cell); 
+		System.out.println("Zipcode: "+aboutMe.zipcode);
+		System.out.println("Weight: "+aboutMe.weight); 
+		System.out.println("Move to USA: "+aboutMe.moveToUsa);
+		System.out.println("Citizeship:" +aboutMe.citizenship);
+		 // bellow I try to do concatenate and also try to make organize
+		System.out.println("################################");
+		System.out.println("Name:"+aboutMe.name+","+"Sex: "+aboutMe.sex+","+"Height: "+aboutMe.height+" ,"+"Age: "+aboutMe.age+" ,"+"Cell: "+aboutMe.cell+" ,"+"zipcode: "+aboutMe.zipcode+" ,"+" "+"Weight: "+aboutMe.weight+","+"MoveToUsa: "+aboutMe.moveToUsa+" ,"+" " +"Citizenship: "+aboutMe.citizenship+"");
+}
 }

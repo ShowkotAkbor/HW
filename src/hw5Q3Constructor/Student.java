@@ -1,5 +1,4 @@
 package hw5Q3Constructor;
-
 public class Student {
 	public String stName;
 	public int stID;
@@ -9,7 +8,7 @@ public class Student {
 
 	public Student() {
 		System.out.println();
-	}
+}
 
 	public Student(String stName, int stID, char sex, boolean isProgrammer, float grade) {
 		this.stName = stName;
@@ -17,8 +16,6 @@ public class Student {
 		this.sex = sex;
 		this.isProgrammer = isProgrammer;
 		this.grade = grade;
-		System.out.println("Student Name:" + stName + " ,  Studentt Id:" + stID + " ,  Sex:" + sex
-				+ " ,  Is Programmer: " + isProgrammer + " ,  Grade:" + grade + " ");
-	}
-
+		System.out.println("Student Name:"+stName+",  Studentt Id: "+stID+" ,  Sex: "+sex+",  Is Programmer: "+isProgrammer+",  Grade: "+grade+"");
+}
 }
