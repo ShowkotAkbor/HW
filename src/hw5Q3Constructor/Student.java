@@ -7,15 +7,14 @@ public class Student {
 	public float grade;
 
 	public Student() {
-		System.out.println();
+		System.out.println("This is from default Constructor of Student class");
 }
-
-	public Student(String stName, int stID, char sex, boolean isProgrammer, float grade) {
+    public Student(String stName, int stID, char sex, float grade, boolean isProgrammer) {
 		this.stName = stName;
 		this.stID = stID;
 		this.sex = sex;
 		this.isProgrammer = isProgrammer;
 		this.grade = grade;
-		System.out.println("Student Name:"+stName+",  Studentt Id: "+stID+" ,  Sex: "+sex+",  Is Programmer: "+isProgrammer+",  Grade: "+grade+"");
+		System.out.println("Student Name: "+stName+", ID: "+stID+", Sex: "+sex+", Grade: "+grade+", Java Programmer? Ans: "+isProgrammer+"");
 }
 }

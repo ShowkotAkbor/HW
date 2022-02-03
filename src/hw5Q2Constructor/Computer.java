@@ -7,11 +7,12 @@ public class Computer {
 	public int price;
 	public char grade;
 	public boolean madeInUsa;
-    // here this is default constructor declared
+    // Declared default constructor 
 	public Computer() {
-		System.out.println();
+		System.out.println("This is from default Contructor of Computer Class");
 }
-     public Computer(String brand, String model, String operatingSystem, int price, char grade, boolean madeInUsa) {
+    // Declared parameterized constructor 
+	public Computer(String brand, String model, String operatingSystem, int price, char grade, boolean madeInUsa) {
 		this.brand = brand;
 		this.model = model;
 		this.operatingSystem = operatingSystem;
@@ -19,7 +20,7 @@ public class Computer {
 		this.grade = grade;
 		this.madeInUsa = madeInUsa;
 
-		System.out.println("Brand Name: " + brand + " , Model name: " + model + " , OperatingSystem :" + operatingSystem
-				+ " , Price: " + price + " , Grade: " + grade + " , Made In USA: " + madeInUsa + "  ");
+		System.out.println("Brand Name: "+brand+", Model: "+model+", OperatingSystem: "+operatingSystem
+				+", Price: "+price+", Grade: "+grade+", Made In USA: "+madeInUsa+"");
 }
 }
