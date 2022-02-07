@@ -9,13 +9,15 @@ public class AnimalTest {
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
 		reptile.animalInfo();
-
+        
 		System.out.println("\n.................................................\n");
 		Snake snake = new Snake();
 		snake.snakeInfo();
 		snake.reptileInfo();
 		snake.animalInfo();
-
+        ///here Cobra inherits from snake is called single inheritance
+		//Cobra inherits from snake and snake inherits from animal is  called multilevel inheritance
+		//when all parents themselves inherits from another single parent is called hierarchical inheritance
 		System.out.println("\n.................................................\n");
 		Cobra cobra = new Cobra();
 		cobra.cobraInfo();

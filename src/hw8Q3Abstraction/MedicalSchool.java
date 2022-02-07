@@ -5,7 +5,7 @@ public abstract class MedicalSchool {
 	public MedicalSchool() {
 	}
 
-	public abstract void antomyLab();// method defined or declared
+	public abstract void antomyLab();// abstract method defined or declared
 
 	// bellow method was implemented
 	public void biochemistryLab() {

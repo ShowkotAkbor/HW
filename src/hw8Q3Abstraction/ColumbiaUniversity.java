@@ -5,7 +5,9 @@ public class ColumbiaUniversity {
 	public ColumbiaUniversity() {
 	}
 
-//public abstract void chemistry();// Abstract method cannot be declared in regular class because of an abstract class can not be instantiated.
+	// Abstract method cannot be declared in regular class because of an abstract
+	// class can not be instantiated.
+	// public abstract void chemistry();
 	public void biology() {
 		System.out.println("This subject deals with living organism");
 	}
