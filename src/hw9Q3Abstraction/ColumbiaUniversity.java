@@ -1,6 +1,6 @@
-package hw8Q3Abstraction;
+package hw9Q3Abstraction;
 
-public class ColumbiaUniversity {
+public class ColumbiaUniversity{
 	// created a default constructor
 	public ColumbiaUniversity() {
 	}
