@@ -1,4 +1,4 @@
-package hw10Q3Abstraction;
+package hw11Q3Abstraction;
 
 public interface University extends College, Hospital {
 	// public University() {}

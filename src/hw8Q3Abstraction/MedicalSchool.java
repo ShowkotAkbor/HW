@@ -1,6 +1,6 @@
 package hw8Q3Abstraction;
 
-public abstract class MedicalSchool {
+public abstract class MedicalSchool{
 	// default constructor created
 	public MedicalSchool() {
 	}

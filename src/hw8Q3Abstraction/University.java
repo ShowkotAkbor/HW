@@ -4,7 +4,7 @@ public interface University {
 	// public University() {}
 	/*
 	 * interface cannot have constructor because all data members in interface are
-	 * public static final by default;they are constants
+	 * public static final by default;they are constants.
 	 */
 	public void classSize();
 

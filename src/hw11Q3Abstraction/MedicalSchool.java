@@ -1,6 +1,6 @@
-package hw10Q3Abstraction;
+package hw11Q3Abstraction;
 
-public abstract class MedicalSchool extends NursingSchool{
+public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 	// how many keywords are used for the inheritance in Java for Abstract Class?
 	// Ans : one extends key words
 	// Can an Abstract Class inherit other Abstract Class or a regular class or
@@ -16,6 +16,7 @@ public abstract class MedicalSchool extends NursingSchool{
 
 	// default constructor created
 	public MedicalSchool() {
+		System.out.println("this is from medicalSchool default constructor");
 	}
 
 	// abstract method defined or declared
@@ -24,5 +25,8 @@ public abstract class MedicalSchool extends NursingSchool{
 	// bellow method was implemented
 	public void biochemistryLab() {
 		System.out.println("This field of study deals with living  micro orgnaism");
+	}
+	public static void mediclalSchool() {
+		System.out.println("This static method from medicalSchool abstract class");
 	}
 }

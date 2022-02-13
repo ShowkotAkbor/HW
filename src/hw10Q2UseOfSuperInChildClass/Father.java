@@ -17,7 +17,7 @@ public class Father {
 		this.age = age;
 		this.sex = sex;
 		this.usCitizen = usCitizen;
-		System.out.println("Fathername: " + name + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
+		System.out.println("Father name: " + name + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
 	}
 
 	public void father() {

@@ -1,6 +1,6 @@
-package hw8Q3Abstraction;
+package hw11Q3Abstraction;
 
-public abstract class NursingSchool{
+public abstract class NursingSchool extends RockefellerUniversity{
 	public abstract void hygine();
 
 	public void caring() {
