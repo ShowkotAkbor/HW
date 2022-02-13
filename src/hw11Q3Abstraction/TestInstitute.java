@@ -55,8 +55,7 @@ public class TestInstitute {
 		lawSchool.lawInfo();
 		LawSchool.lawSchoolInfo();
 
-		System.out.println(
-				"\n.........................regular class RockefellerUniversity........................................\n");
+		System.out.println("\n.........................regular class RockefellerUniversity......................\n");
 
 		RockefellerUniversity rockefellerUniversity = new ColumbiaUniversity();
 		rockefellerUniversity.maths();
@@ -73,8 +72,7 @@ public class TestInstitute {
 		NYUniversity nyUniversity = new ColumbiaUniversity();
 		nyUniversity.anthropology();
 
-		System.out.println(
-				"\n.........................Interface aeronauticalSchool.................................................\n");
+		System.out.println("\n.........................Interface aeronauticalSchool...................................\n");
 		AeronauticalSchool aeronauticalSchool = new ColumbiaUniversity();
 		aeronauticalSchool.aeronauticalInfo();
 		aeronauticalSchool.rocket();
