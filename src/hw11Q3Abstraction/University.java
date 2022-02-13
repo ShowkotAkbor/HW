@@ -21,11 +21,11 @@ public interface University extends College, Hospital {
 	public void teacher();
 
 	public default void gymnasium() {
-		System.out.println();
+		System.out.println("this default method from university interface");
 	}
 
-	public static void main() {
-		System.out.println();
+	public static  void universityInfo() {
+		System.out.println("this static method from university interface");
 
 	}
 }
