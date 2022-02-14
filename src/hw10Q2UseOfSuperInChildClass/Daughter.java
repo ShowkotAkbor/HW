@@ -12,8 +12,7 @@ public class Daughter extends Father {
 		super.age = 67;
 		super.sex = 'M';
 		super.usCitizen = false;
-		System.out.println(
-				"Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
+		System.out.println("Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
 		System.out.println();
 	}
 
