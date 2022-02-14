@@ -5,8 +5,7 @@ public class TestInstitute {
 	public static void main(String[] args) {
 		System.out.println("\n......................Regular Class ColumbiaUniversuty...................\n");
 		ColumbiaUniversity columbiaUniversity = new ColumbiaUniversity();
-		ColumbiaUniversity.columbiaUniversityInfo();// when method is static its belonged to class so no need to create
-													// objects.
+		ColumbiaUniversity.columbiaUniversityInfo();// when method is static its belonged to class so no need to creats objects.
 		columbiaUniversity.biology();
 		columbiaUniversity.cafeteria();
 		columbiaUniversity.commonRoom();
@@ -72,7 +71,8 @@ public class TestInstitute {
 		NYUniversity nyUniversity = new ColumbiaUniversity();
 		nyUniversity.anthropology();
 
-		System.out.println("\n.........................Interface aeronauticalSchool...................................\n");
+		System.out.println(
+				"\n.........................Interface aeronauticalSchool...................................\n");
 		AeronauticalSchool aeronauticalSchool = new ColumbiaUniversity();
 		aeronauticalSchool.aeronauticalInfo();
 		aeronauticalSchool.rocket();

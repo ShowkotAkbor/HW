@@ -15,11 +15,13 @@ public class AnimalTest {
 		snake.snakeInfo();
 		snake.reptileInfo();
 		snake.animalInfo();
+		
 		/*
 		 * here Cobra inherits from snake is called single inheritance 
-		 * Cobra inherits from snake and snake inherits from animal is called multilevel inheritance
-		 * when all parents themselves inherits from another single parent is called hierarchical inheritance
+		 * Cobra inherits from snake and snake inherits from reptile and reptile inherits from  animal is called multilevel inheritance
+		 * when more than one class is inherited from a singlke parent or base class called hierarchical inheritance.eg reptile class ,bird class,and mammal class inherits from animal clkass
 		 */
+		
 		System.out.println("\n.................................................\n");
 		Cobra cobra = new Cobra();
 		cobra.cobraInfo();

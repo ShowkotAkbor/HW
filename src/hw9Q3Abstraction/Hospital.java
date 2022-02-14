@@ -7,6 +7,10 @@ public interface Hospital {
 
 	public void cafeteria();
 
+	public default void morgue() {
+		System.out.println();
+	}
+
 	public static void pharmacy() {
 		System.out.println();
 	}

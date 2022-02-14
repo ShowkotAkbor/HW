@@ -1,18 +1,20 @@
 package hw9Q3Abstraction;
 
-public interface University extends College,Hospital {
-	// public University() {}
+public interface University extends College, Hospital {
+	/* public University() {}
+	 how many key words are used for the inheritance in interface?
+	 two ,extends and implements.
+	 Can an interface inherit other Interfaces, or a regular class or abstract
+	 class by extends key word?
+	 Ans:Interface can inherit multiple interface but it can not inherit regular or
+	 abstract class by using extends key words.
+	 how many inheritance is possible by inheritance?
+	 Ans: more than one
+	 Interface cannot have constructor because all data members in interface are
+	 public static final by default .They are constants.
+	 * 
+	 */
 
-	// interface cannot have constructor because all data members in interface are
-	// public static final by default;they are constants
-	// how many keywords are used for the inheritance in Interface, answer by Java
-	// comments?
-	// there is one keyword(extend) used for inheritance
-	// Can an interface inherit other Interfaces, or a regular class or abstract
-	// class by extends key word?
-	// interface can inherit  multiple interface but it can not inherit regular or abstract
-	// class
-	
 	public void classSize();
 
 	public void playGround();
