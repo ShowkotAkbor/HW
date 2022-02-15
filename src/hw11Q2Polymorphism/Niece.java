@@ -27,4 +27,16 @@ public class Niece extends Sister {
 		System.out.println("Age area from" + age3);
 	}
 
+	public static void sister(int a, String b, String c) {
+		String age4 = String.valueOf(a) + b + c;
+		System.out.println("age area from" + age4);
+
+	}
+
+	public static int sister(int a, int b, double c, String d) {
+		int age6 = (a + b + (int) c + Integer.parseInt(d));
+		System.out.println("Age6 area from" + age6);
+		return age6;
+	}
+
 }

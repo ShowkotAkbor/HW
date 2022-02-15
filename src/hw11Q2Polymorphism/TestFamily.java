@@ -8,8 +8,8 @@ public class TestFamily {
 		sister.sister(21, 32, 35);
 		sister.sister(20, 19, "48");
 		sister.sister(21, 14, 31, 33);
-		sister.sister(11, "35", "43");
-		sister.sister(12, 23, 39, "25");
+		Sister.sister(11, "thirtyfive", "fortythree");
+		Sister.sister(12, 23, 39, "25");
 
 		System.out.println("\n.......................niece Class................\n");
 		Sister niece = new Sister();
