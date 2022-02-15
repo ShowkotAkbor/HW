@@ -1,5 +1,5 @@
 package hw9Q2Encapsulation;
-//for update purpose
+//
 public class EmployeeTest {
 
 	public static void main(String[] args) {

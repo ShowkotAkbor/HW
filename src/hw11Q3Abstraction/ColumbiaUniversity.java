@@ -2,7 +2,6 @@ package hw11Q3Abstraction;
 
 public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 
-
 	// created a default constructor
 	public ColumbiaUniversity() {
 

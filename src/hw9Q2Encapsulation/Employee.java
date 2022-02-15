@@ -1,5 +1,6 @@
 package hw9Q2Encapsulation;
 
+//we can modifies variables from prive to public by set and get by the eclipse source then generate by set and get then select after last variable or wherever i want.f  
 public class Employee {
 	private String name;
 	private int age;
@@ -38,6 +39,4 @@ public class Employee {
 		this.usCitizen = usCitizen;
 	}
 
-	public static void main(String[] args) {
-	}
 }
