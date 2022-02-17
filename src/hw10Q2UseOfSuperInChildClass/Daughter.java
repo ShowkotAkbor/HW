@@ -12,7 +12,8 @@ public class Daughter extends Father {
 		super.age = 67;
 		super.sex = 'M';
 		super.usCitizen = false;
-		System.out.println("Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
+		System.out.println(
+				"Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
 		System.out.println();
 	}
 
@@ -24,7 +25,8 @@ public class Daughter extends Father {
 		super.age = 67;
 		super.sex = 'M';
 		super.usCitizen = false;
-		System.out.println("Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
+		System.out.println(
+				"Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
 
 		this.birthMonth = birthMonth;
 		this.age = age;
@@ -32,14 +34,13 @@ public class Daughter extends Father {
 	}
 
 	public void daughter() {
-        super.father();
+		super.father();
 		super.fatherInfo("Hossain Ahamed", 67, 'M', false);
 		super.familyName = "Hossain Ahmed";
 		super.age = 67;
 		super.sex = 'M';
 		super.usCitizen = false;
-		System.out.println(
-				"Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
+		System.out.println("Family name: " + familyName + " Age: " + age + " Sex: " + sex + " Us Citizen: " + usCitizen + "");
 
 		System.out.println();
 
@@ -52,7 +53,7 @@ public class Daughter extends Father {
 		super.age = 67;
 		super.sex = 'M';
 		super.usCitizen = false;
-		
+
 		System.out.println("Family name: " + familyName + " Age: " + age + " Sex: " + sex + " UsCitizen: " + usCitizen + "");
 
 		this.birthMonth = birthMonth;

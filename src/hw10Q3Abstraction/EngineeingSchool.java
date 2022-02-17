@@ -1,6 +1,6 @@
 package hw10Q3Abstraction;
 
-public abstract class EngineeingSchool{
+public abstract class EngineeingSchool {
 
 	public abstract void mechanicalLab();
 

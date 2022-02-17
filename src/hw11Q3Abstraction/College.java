@@ -6,11 +6,12 @@ public interface College {
 	public void laboratory();
 
 	public void languageClub();
-	
+
 	public default void studyRoom() {
 		System.out.println();
 	}
-	public static void College() {
+
+	public static void college() {
 		System.out.println();
 	}
 }

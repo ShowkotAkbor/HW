@@ -10,7 +10,7 @@ public interface College {
 	public default void studyRoom() {
 		System.out.println();
 	}
-	public static void College() {
+	public static void college() {
 		System.out.println();
 	}
 }
