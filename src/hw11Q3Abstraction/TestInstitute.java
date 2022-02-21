@@ -23,6 +23,11 @@ public class TestInstitute {
 		columbiaUniversity.antomyLab();
 		columbiaUniversity.hygine();
 		columbiaUniversity.mechanicalLab();
+		columbiaUniversity.anthropology();
+		columbiaUniversity.rocket();
+		ColumbiaUniversity.mediclalSchool();
+		columbiaUniversity.biochemistryLab();
+		columbiaUniversity.gymnasium();
 
 		System.out.println("/n.........................Abstract Class MedicalSchiool ...............\n");
 		MedicalSchool medicalSchool = new ColumbiaUniversity();
@@ -71,8 +76,7 @@ public class TestInstitute {
 		NYUniversity nyUniversity = new ColumbiaUniversity();
 		nyUniversity.anthropology();
 
-		System.out.println(
-				"\n.........................Interface aeronauticalSchool...................................\n");
+		System.out.println("\n.........................Interface aeronauticalSchool...................................\n");
 		AeronauticalSchool aeronauticalSchool = new ColumbiaUniversity();
 		aeronauticalSchool.aeronauticalInfo();
 		aeronauticalSchool.rocket();
