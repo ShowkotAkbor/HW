@@ -12,7 +12,7 @@ public interface University extends College, Hospital {
 	// class by extends key word?
 	// interface can inherits multiple interface but it can not inherit regular or
 	// abstract
-	// class by using extends and implements key word.
+	// class by using extends key word.
 
 	public void classSize();
 
