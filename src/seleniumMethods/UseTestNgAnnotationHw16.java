@@ -64,19 +64,19 @@ public class UseTestNgAnnotation2 {
 			driver.findElement(By.linkText(" What information do I need to schedule my child's appointment?")).click();
 		}
 
-		@Test(enabled = true, priority = 2)
+		@Test(enabled = true, priority = 3)
 		public void logobuutonTest() {
 			boolean enthrallLogo = driver.findElement(By.className("//div[@class='col-xl-1 col-lg-1 col-md-6 col-6']"))
 					.isDisplayed();
 			System.out.println("Is the  Enthrall logo button displyaed? Ans: " + enthrallLogo);
 		}
 
-		@Test(enabled = true, priority = 3)// calyx
+		@Test(enabled = true, priority = 4)// calyx
 		public void scheduleADemoTest() {
 			boolean scheduleADemo = driver.findElement(By.linkText("Schedule a Demo")).isEnabled();
 			System.out.println("Is the schedule a demo button enabled? Ans: " + scheduleADemo);
 		}
-			@Test(enabled = true, priority = 4)//wellsfargo
+			@Test(enabled = true, priority = 5)//wellsfargo
 			public void signInTest()throws InterruptedException {
 				driver.findElement(By.cssSelector("label.lsc saveuser-pd")).click();
 				boolean saveUserName=driver.findElement(By.className("lsc saveuser-pd")).isSelected();
@@ -84,7 +84,7 @@ public class UseTestNgAnnotation2 {
 				Thread.sleep(5000);
 			
 		}
-			@Test(enabled = true, priority = 5)//wellsfargo
+			@Test(enabled = true, priority = 6)//wellsfargo
 			public void titleTest() throws InterruptedException {
 				String expectedPageTitle="Wells Fargo Bank | Financial Services & Online Banking";
 				String actualpgetitle = driver.getTitle();
@@ -106,13 +106,13 @@ public class UseTestNgAnnotation2 {
 			}
 			Thread.sleep(4000);
 			}
-		@Test(enabled=true, priority=6)
+		@Test(enabled=true, priority=7)
 		public void getTextTest() {
 			WebElement enroll =driver.findElement(By.xpath("//a[text() ='Enroll']"));
 			System.out.println("the text for the webElement is :" + enroll.getText());
 			
 		}
-		@Test(enabled=true, priority=7)
+		@Test(enabled=true, priority=8)
 		public void getAttributeTest() {
 			String element1=driver.findElement(By.xpath("//a[@class='enroll']")).getAttribute("class");
 			String element2=driver.findElement(By.xpath("//a[@class='enroll']")).getAttribute("href");
@@ -120,13 +120,13 @@ public class UseTestNgAnnotation2 {
 			System.out.println("the element of the class is:" + element1);
 			System.out.println("the element of the class is:" + element2);
 		}
-		@Test(enabled=true, priority=8)
+		@Test(enabled=true, priority=9)
 		public void uidPasswrdTest() throws InterruptedException{
 		driver.findElement(By.id("userid_label")).sendKeys("abcaknob");
 		driver.findElement(By.id("//label[@id='password_label']")).sendKeys("jaskldk");
 		Thread.sleep(5000);
 		}
-		@Test(enabled=true, priority=9)//bestbuy.com
+		@Test(enabled=true, priority=10)//bestbuy.com
 		public void productsearchTest() throws InterruptedException {
 			driver.findElement(By.xpath("//input[@id='gh-search-input']")).sendKeys("iphone");
 			driver.findElement(By.xpath("//span[@class='header-search-icon']")).click();
